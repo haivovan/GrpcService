@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcGreeter", "GrpcGreeter\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCClient", "..\gRPCClient\gRPCClient\gRPCClient.csproj", "{D2B67476-9BFC-41EE-932A-9B221CB9EA83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentCore", "DocumentCore\DocumentCore.csproj", "{0165E675-CFF7-4EE8-AC22-3ABB1CEC96A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D2B67476-9BFC-41EE-932A-9B221CB9EA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B67476-9BFC-41EE-932A-9B221CB9EA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B67476-9BFC-41EE-932A-9B221CB9EA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0165E675-CFF7-4EE8-AC22-3ABB1CEC96A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0165E675-CFF7-4EE8-AC22-3ABB1CEC96A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0165E675-CFF7-4EE8-AC22-3ABB1CEC96A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0165E675-CFF7-4EE8-AC22-3ABB1CEC96A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
