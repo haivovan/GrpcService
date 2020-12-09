@@ -23,5 +23,6 @@ namespace GrpcGreeter
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }

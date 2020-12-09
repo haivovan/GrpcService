@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package document;
+
+option csharp_namespace = "DocumentService";
+
+service DocumentService {
+  rpc GetDocument (Empty) returns (Documents);
+}
+
+message Empty {
+
+}
+
+message Document {
+  int32 documentId = 1;
+  string documentName = 2;
+}
+
+message Documents {
+   repeated Document items = 1;
+}
+
+message EmployeeFilter {
+   int32 employeeID = 1;
+}
